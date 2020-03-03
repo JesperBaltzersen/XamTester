@@ -20,13 +20,16 @@
 
                 <StackLayout HorizontalOptions="StartAndExpand" WidthRequest="200">
                     <Button Text=".Result blocks" BackgroundColor="Red" Command="{Binding BlockWithResultCommand}"></Button>
-                    <Button Text="Bad UI" BackgroundColor="Red"></Button>
+                    <Button Text="Background update" BackgroundColor="Red" Command="{Binding UpdateInBackgroundCommand}"></Button>
                     <Button Text="Bad UI" BackgroundColor="Red"></Button>
                 </StackLayout>
 
                 <StackLayout HorizontalOptions="EndAndExpand" WidthRequest="200">
                     <Button Text="Wait no block" BackgroundColor="Green" Command="{Binding DontBlockAwaitInsteadOfResultCommand}"></Button>
-                    <Button Text="Block UI" BackgroundColor="Green"></Button>
+                    <StackLayout Orientation="Horizontal">
+                        <Button Text="bckgrnd" BackgroundColor="Green" Command="{Binding UpdateInBackgroundCommand}"></Button>
+                        <Button Text="test" BackgroundColor="{Binding BtnColor}"></Button>
+                    </StackLayout>
                     <Button Text="Block UI" BackgroundColor="Green"></Button>
                 </StackLayout>
 
