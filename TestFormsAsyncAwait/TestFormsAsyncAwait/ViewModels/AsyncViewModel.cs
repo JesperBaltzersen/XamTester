@@ -38,14 +38,6 @@ namespace TestFormsAsyncAwait.ViewModels
         private string _consoleViewText;
         public string ConsoleViewText { get => _consoleViewText ?? ""; set => SetProperty(ref _consoleViewText, value); }
 
-        //public Action MyAction = () => Debug.WriteLine("MyAction");
-        //public Action Callingaction => () => DelayFor5SecondsDotResult();
-
-        //private void CalledByAction([CallerMemberName] string CallerName = "")
-        //{
-        //    Debug.WriteLine($"Method {nameof(CalledByAction)} called by {CallerName}");
-        //}
-
         public Color _color;
         public Color BtnColor { set => SetProperty(ref _color, value); get => _color; }
         public ICommand UpdateInBackgroundCommand => new Command(UpdateInBackgroundAsync);
