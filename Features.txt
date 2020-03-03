@@ -23,7 +23,15 @@ Open settings
 
 Cache / uncache image
 
+Linq 
 
+Nullable
+
+Try catch
+
+Rethrow exception 
+
+Ref/out 
 
 Martin's poorer version that gives more complexity, less readability, he's comment is "you just gotta know the API".
 Show how to build with explicit design so as to ease the maintenence burden 
