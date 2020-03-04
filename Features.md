@@ -35,6 +35,8 @@ Cache / uncache image
 
 Linq 
 
+Temporal coupling with i it token/initted sdk
+
 Nullable
 
 Try catch
